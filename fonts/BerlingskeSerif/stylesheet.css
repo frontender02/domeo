@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Bold.woff2') format('woff2'),
+        url('BerlingskeSerif-Bold.woff') format('woff'),
+        url('BerlingskeSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BerlingskeSerif-Blk';
+    src: url('BerlingskeSerif-Blk.woff2') format('woff2'),
+        url('BerlingskeSerif-Blk.woff') format('woff'),
+        url('BerlingskeSerif-Blk.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

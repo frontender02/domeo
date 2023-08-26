@@ -1,0 +1,68 @@
+// Graphik LCG
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../fonts/GraphikLCG/GraphikLCG-Medium.woff2') format('woff2'),
+        url('../fonts/GraphikLCG/GraphikLCG-Medium.woff') format('woff'),
+        url('../fonts/GraphikLCG/GraphikLCG-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../fonts/GraphikLCG/GraphikLCG-Regular.woff2') format('woff2'),
+        url('../fonts/GraphikLCG/GraphikLCG-Regular.woff') format('woff'),
+        url('../fonts/GraphikLCG/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../fonts/GraphikLCG/GraphikLCG-Bold.woff2') format('woff2'),
+        url('../fonts/GraphikLCG/GraphikLCG-Bold.woff') format('woff'),
+        url('../fonts/GraphikLCG/GraphikLCG-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../fonts/GraphikLCG/GraphikLCG-Semibold.woff2') format('woff2'),
+        url('../fonts/GraphikLCG/GraphikLCG-Semibold.woff') format('woff'),
+        url('../fonts/GraphikLCG/GraphikLCG-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Berlingske Serif
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('../fonts/BerlingskeSerif/BerlingskeSerif-Bold.woff2') format('woff2'),
+        url('../fonts/BerlingskeSerif/BerlingskeSerif-Bold.woff') format('woff'),
+        url('../fonts/BerlingskeSerif/BerlingskeSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('../fonts/BerlingskeSerif/BerlingskeSerif-Blk.woff2') format('woff2'),
+        url('../fonts/BerlingskeSerif/BerlingskeSerif-Blk.woff') format('woff'),
+        url('../fonts/BerlingskeSerif/BerlingskeSerif-Blk.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+// 
+@font-face {
+    font-family: 'Segoe Script';
+    src: url('../fonts/SegoeScript/SegoeScript.woff2') format('woff2'),
+        url('../SegoeScript.woff') format('woff'),
+        url('../SegoeScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
