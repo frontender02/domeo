@@ -1,0 +1,42 @@
+.home {
+    padding: 172px 0 78px;
+    text-align: center;
+    position: relative;
+
+    &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.85);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    
+
+	&__container {
+        position: relative;
+        z-index: 2;
+	}
+
+	&__title {
+        margin-bottom: 58px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        color: $clr_main-secondary;
+	}
+
+	&__footer {
+        margin: 0 auto;
+        max-width: 385px;
+	}
+
+	&__description {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 140%;
+        color: $clr_main-secondary;
+	}
+}

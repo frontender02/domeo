@@ -1,0 +1,23 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+
+	&__img {
+        width: 100px;
+        height: 60px;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+	}
+
+	&__title {
+        max-width: 230px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: $clr_main-secondary;
+	}
+}
