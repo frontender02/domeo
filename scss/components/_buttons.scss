@@ -39,4 +39,13 @@
             color: $clr_main-secondary;
         }
     }
+
+    &_min {
+        span {
+            padding: 20px;
+        }
+        span:hover {
+			color: $clr_main;
+		}
+    }
 }
