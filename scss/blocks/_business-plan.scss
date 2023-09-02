@@ -1,0 +1,58 @@
+.business-plan {
+	// &__container {}
+
+	&__title {
+        max-width: 1093px;
+	}
+
+	&__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+	}
+
+	&__list {
+        padding: 30px 16px;
+        max-width: 312px;
+        width: 100%;
+        position: absolute;
+        left: 60px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: $clr_main-secondary;
+        border: 10px solid $clr_accent;
+
+        & > *:not(:last-child){
+            margin-bottom: 68px;
+        }
+	}
+
+	&__item {
+        text-align: center;
+	}
+
+	&__item-icon {
+        margin: 0 auto 18px;
+        max-width: 70px;
+	}
+
+	&__item-description {
+        font-family: $ff_2;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 140%;
+	}
+
+	&__img {
+        max-width: 592px;
+        border: 22px solid $clr_gray-light;
+	}
+
+	&__form {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+	}
+}

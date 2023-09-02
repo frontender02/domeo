@@ -1,0 +1,78 @@
+.form {
+    padding: 32px;
+    max-width: 448px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: $clr_main-secondary;
+    border: 1px solid $clr_gray-light;
+
+		&__title {
+            margin-bottom: 20px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: center;
+            color: $clr_main;
+		}
+
+		&__box {
+            margin-bottom: 14px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+		}
+
+		&__input-description {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+		}
+
+		&__input {
+            padding: 15px 24px 13px;
+            display: inline-block;
+            font-family: $ff_1;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            border-radius: 8px;
+            background-color: $clr_main-secondary;
+            border: 1px solid $clr_gray;
+            transition: .4s;
+
+            &::placeholder {
+                font-family: inherit;
+                font-weight: inherit;
+                font-size: inherit;
+                color: $clr_gray-light;
+            }
+
+            &:focus {
+                border: 1px solid $clr_accent;
+            }
+		}
+
+		&__submit {
+            margin-top: 22px;
+            opacity: 0.5;
+            pointer-events: none;
+
+            &_active {
+                opacity: 1;
+                pointer-events: auto;
+            }
+		}
+
+		&__text {
+            margin-top: 12px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 140%;
+            text-align: center;
+            color: $clr_main;
+
+            a {
+                color: $clr_light-blue;
+            }
+		}
+}

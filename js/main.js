@@ -55,3 +55,22 @@ valueDisplays.forEach(valueDisplay => {
         }
     }, duration)
 })
+
+
+// IMask
+let phoneInput = document.querySelector('.form__input_phone');
+let btnForm = document.querySelector('.form__submit');
+
+const phoneMask = new IMask(phoneInput, {
+	mask: '+{7} (000) 000 - 00 - 00',
+	lazy: false,
+})
+
+phoneInput.addEventListener('input', phoneInputHandler);
+function phoneInputHandler() {
+	if (phoneMask.masked.isComplete) {
+		btnForm.classList.add('form__submit_active')
+	} else {
+		btnForm.classList.remove('form__submit_active')
+	}
+}
