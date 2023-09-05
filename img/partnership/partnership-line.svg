@@ -1,0 +1,10 @@
+<svg width="602.000000" height="10.000000" viewBox="0 0 602 10" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<path id="Line 2 (Граница)" d="M0 0L600 0L600 2L0 2L0 0Z" fill-rule="evenodd" fill="#BDBDBD"/>
+	<path id="Line 3 (Граница)" d="M2 0L2 10L0 10L0 0L2 0Z" fill-rule="evenodd" fill="#BDBDBD"/>
+	<path id="Line 5 (Граница)" d="M302 0L302 10L300 10L300 0L302 0Z" fill-rule="evenodd" fill="#BDBDBD"/>
+	<path id="Line 6 (Граница)" d="M602 0L602 10L600 10L600 0L602 0Z" fill-rule="evenodd" fill="#BDBDBD"/>
+</svg>
