@@ -1,0 +1,55 @@
+.consultation {
+	// &__container {}
+
+	// &__title {}
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		gap: 72px;
+	}
+
+	// &__content {}
+
+	&__content-title {
+		margin-bottom: 21px;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 140%;
+	}
+
+	&__content-list {
+		margin-bottom: 10px;
+	}
+
+    &__content-item +
+    &__content-item {
+        margin-top: 32px;
+    }
+
+	&__content-item {
+        padding-left: 72px;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 140%;
+		position: relative;
+
+        &::before {
+            content: '';
+            width: 40px;
+            height: 40px;
+            background-image: url('../img/icons/question.svg');
+            background-position: center center; 
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+	}
+
+	// &__content-banner {}
+
+	// &__form {}
+}

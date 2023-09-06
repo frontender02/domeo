@@ -1,0 +1,26 @@
+.info-contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+
+	&__item {
+        max-width: 200px;
+		text-align: center;
+	}
+
+	&__title {
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 140%;
+	}
+
+	&__text {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 140%;
+
+		&_address {
+			font-style: normal;
+		}
+	}
+}

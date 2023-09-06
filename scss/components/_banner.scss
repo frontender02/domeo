@@ -1,0 +1,25 @@
+.banner {
+	margin-top: 40px;
+	padding: 20px;
+	padding-left: 200px;
+	border-radius: 4px;
+	border: 10px solid $clr_accent;
+	background-color: $clr_main-secondary;
+	position: relative;
+
+	&__text {
+		font-family: $ff_2;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 140%;
+	}
+
+	&__img {          
+		width: 134px;
+		height: 188px;
+		position: absolute;
+		left: 42px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}

@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Domeo | Ведущая компания по ремонту квартир в Москве</title>
 		<link href="css/style.min.css" rel="stylesheet" />
+		<script src="https://api-maps.yandex.ru/2.1/?apikey=57486d4e-5fb3-49e1-9b33-df739f9eb613&lang=ru_RU" type="text/javascript"></script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -402,6 +403,109 @@
 								</div>
 							</li>
 						</ul>
+					</div>
+				</section>
+				<section class="consultation section">
+					<div class="consultation__container container">
+						<div class="block-header">
+							<h2 class="consultation__title block-header__title">
+								Станьте первым и единственным партнером Domeo ремонт в своем городе
+							</h2>
+							<p class="block-header__text">
+								Просто заполните форму для подробной консультации, которая ни к чему вас не обязывает
+							</p>
+						</div>
+						<div class="consultation__inner">
+							<div class="consultation__content">
+								<h3 class="consultation__content-title">На бесплатной консультации вы узнаете:</h3>
+								<ul class="consultation__content-list">
+									<li class="consultation__content-item">Подходит ли вам строительный бизнес</li>
+									<li class="consultation__content-item">Оценку рисков запуска бизнеса в вашем городе</li>
+									<li class="consultation__content-item">Оценку объема рынка и потенциальный доход</li>
+									<li class="consultation__content-item">Первоначальные финансовые затраты и точный срок окупаемости в вашем городе</li>
+								</ul>
+								<div class="consultation__content-banner banner">
+									<p class="banner__text">
+										В подарок вы получите бизнес-план, как облегчить жизнь с долгами прямо сейчас
+									</p>
+									<div class="banner__img"><img src="img/business-plan/business-plan-min.jpg" alt=""></div>
+								</div>
+							</div>						
+							<form class="consultation__form form">
+								<h3 class="form__title">
+									Заполните форму,<br> чтобы получить доступ к бизнес-плану
+								</h3>
+								<label class="form__box">
+									<span class="form__input-description">Введите ваше имя</span>
+									<input class="form__input" type="text" placeholder="Например, Алексей" required>
+								</label>
+								<label class="form__box">
+									<span class="form__input-description">Введите ваш телефон</span>
+									<input class="form__input form__input_phone" type="tel" placeholder="+7 (___) ___ - __ - __" required>
+								</label>
+								<button class="form__submit btn btn_min" type="submit"><span>Получить консультацию</span></button>
+								<div class="form__text">
+									<p>
+										Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь c <br><a href="#">политикой конфиденциальности</a>
+									</p>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+				<section class="contacts section">
+					<div class="contacts__container container">
+						<div class="block-header">
+							<h2 class="contacts__title block-header__title">
+								Остались вопросы? Задайте их по телефону или в нашем офисе
+							</h2>
+							<p class="block-header__text">
+								Консультация не ограничена по времени, поэтому мы не выгоним вас из офиса и не положим трубку, пока у вас не закончатся вопросы
+							</p>
+						</div>
+						<div class="contacts__inner">
+							<form class="contacts__form form">
+								<h3 class="form__title">
+									Заполните форму, чтобы получить ответ на любой интересующий вас вопрос
+								</h3>
+								<label class="form__box">
+									<span class="form__input-description">Введите ваше имя</span>
+									<input class="form__input" type="text" placeholder="Например, Алексей" required>
+								</label>
+								<label class="form__box">
+									<span class="form__input-description">Введите ваш телефон</span>
+									<input class="form__input form__input_phone" type="tel" placeholder="+7 (___) ___ - __ - __" required>
+								</label>
+								<button class="form__submit btn btn_min" type="submit"><span>Получить ответы на вопросы</span></button>
+								<div class="form__text">
+									<p>
+										Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь c <br><a href="#">политикой конфиденциальности</a>
+									</p>
+								</div>
+							</form>
+							<div class="contacts__content">
+								<div class="contacts__map" id="map"></div>
+								<ul class="contacts__info info-contacts">
+									<li class="info-contacts__item">
+										<div class="info-contacts__title">Адрес офиса:</div>
+										<address class="info-contacts__text info-contacts__text_address">
+											г. Москва, ул. Лужнецкая наб. 2/4 стр. 17, офис 308
+										</address>
+									</li>
+									<li class="info-contacts__item">
+										<div class="info-contacts__title">Контакты:</div>
+										<p class="info-contacts__text">
+											<a href="tel:84951262489">8 (495) 126-24-89</a>
+											<a href="mailto:info@domeo.ru">info@domeo.ru</a>
+										</p>
+									</li>
+									<li class="info-contacts__item">
+										<div class="info-contacts__title">График работы:</div>
+										<p class="info-contacts__text">С 9.00 до 22.00 <br>без выходных</p>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</section>
 			</main>

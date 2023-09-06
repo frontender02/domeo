@@ -1,0 +1,28 @@
+.contacts {
+	// &__container {}
+
+	// &__title {}
+
+	&__inner {
+        display: flex;
+        justify-content: space-between;
+		column-gap: 20px;
+		row-gap: 40px;
+	}
+
+	// &__form {}
+
+	&__content {
+		max-width: 695px;
+		width: 100%;
+	}
+
+	&__map {
+        width: 100%;
+        min-height: 374px;
+	}
+
+	&__info {
+        margin-top: 36px;
+	}
+}
